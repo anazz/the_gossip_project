@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
  root to: 'static_pages#home'
+  # get 'gossips', to: 'gossips#index'	
+  resources :gossips
 
- resources :photos
-
-  # get 'gossips/new', to: 'gossips#new'
-  # get 'gossips/create', to: 'gossips#create'
+  # get 'gossip/new', to: 'gossip#new'
+  # get 'gossip/create', to: 'gossip#show'
   # get 'gossips/edit', to: 'gossips#edit'
   # get 'gossips/update', to: 'gossips#update'
   # get 'gossips/destroy', to: to: 'gossips#destroy'

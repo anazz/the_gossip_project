@@ -1,0 +1,9 @@
+<h1>Les Gossips</h1>
+
+<p class = "gossip_list">
+	<% @gossips.each do |gossip| %>
+	<h4>par <em><%= gossip.anonymous_author %></em></h4>
+  	<p><%= gossip.content %></p>
+  	<button><%= link_to "Add your own gossip", 'gossips/new' %></button>
+	<% end %>
+</p>

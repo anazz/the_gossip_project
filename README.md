@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Ruby version 2.3.4
 
-Things you may want to cover:
+Chers correcteurs,
 
-* Ruby version
 
-* System dependencies
+Voici mon projet Gossip!
 
-* Configuration
+L'index s'affiche bien, le create marche et l'update, mais destroy et les commentaires manquent...
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+Merci pour votre correction et bon courage chers correcteurs. 
 
-* Services (job queues, cache servers, search engines, etc.)
+Des bisous 💚 💙 💜
 
-* Deployment instructions
 
-* ...
+--------------------------------------------------------------
+
+
+
+
+

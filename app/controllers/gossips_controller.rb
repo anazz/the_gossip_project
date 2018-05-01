@@ -4,7 +4,7 @@ class GossipsController < ApplicationController
   end
 
   def create
-    @gossip=Gossip.create(gossip_params)
+    @gossip = Gossip.create(gossip_params)
         
     #redirect_to gossips_path(@gossip.id)
 
@@ -14,7 +14,8 @@ class GossipsController < ApplicationController
   end
 
   def show
-    @gossip = Gossip.find_by(id: params[:id]) 
+    @gossips = Gossip.all
+    #@gossip = Gossip.find_by(id: params[:id]) 
     #@gossip=Gossip.find(params[:id])
   end 
 

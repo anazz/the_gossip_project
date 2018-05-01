@@ -3,5 +3,5 @@
 <div class = "gossip">
 	<h5>gossip author: <%= @gossip.anonymous_author %></h5>
   	<p>Gossip: <%= @gossip.content %></p>
-  	<button><%= link_to "Edit gossip", '/gossips/:id/edit' %></button>
+  	<button><%= link_to "Edit gossip", edit_gossip_path(@gossip.id) %></button>
 </div>
